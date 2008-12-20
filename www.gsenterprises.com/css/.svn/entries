@@ -1,0 +1,67 @@
+8
+
+dir
+1
+svn://10.0.1.18/var/repository/gsenterprises.com/css
+svn://10.0.1.18/var/repository/gsenterprises.com
+
+
+
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4ef5a647-9531-4c42-b197-8cd35185680c
+
+gb.css
+file
+
+
+
+
+2008-07-12T13:50:44.000000Z
+2be3ed81d7d4a73cbf6477fcefa33cf8
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+
+_notes
+dir
+
+main.css
+file
+
+
+
+
+2008-07-12T13:50:44.000000Z
+3cfbb4fd82ed2ac73dd7146712419409
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+
+main2.css
+file
+
+
+
+
+2008-07-12T13:50:44.000000Z
+20e02c9a505e0dcbd9fb037768e36171
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+

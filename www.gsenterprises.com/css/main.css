@@ -1,0 +1,253 @@
+body {
+	margin:0;
+	min-width:700px;
+	font:.7em Verdana, Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	background-color: #848794;
+}
+/*img, div { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader; }*/
+a {
+	color:#003399;
+	text-decoration:none;
+}
+a:hover {
+	color:#999999;
+	text-decoration:underline;
+}
+/* Start Menu writeup */
+.menu {
+    width:640px; 
+    height:25px; 
+    position:relative; 
+    top:76px; 
+    z-index:1000; 
+    margin:auto;
+}
+/* hack to correct IE5.5 faulty box model */
+* html .menu {
+    width:640px; 
+    width:640px;
+}
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {
+    padding:0; 
+    margin:0; 
+    list-style-type:none;
+}
+.menu ul ul {
+    width:150px;
+}
+/* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu li {
+    float:left; 
+    width:150px; 
+    position:relative; 
+    border-bottom:1px solid #7791B0;
+}
+/* links for the top level */
+.menu a, .menu a:visited {
+    font-size:10pt;
+    display:block;
+    font-family:helvetica; 
+    font-weight:bold;
+    text-decoration:none; 
+    color:#000; 
+    width:150px; 
+    height:23px; 
+    padding-left:10px;
+    line-height:25px;
+}
+/* a hack so that IE5.5 faulty box model is corrected */
+* html .menu a, * html .menu a:visited {
+    width:150px; 
+    w\idth:150px;
+}
+/* second level background */
+.menu ul ul a.drop, .menu ul ul a.drop:visited {
+    background:#e9ebf7;
+}
+/* second level hover */
+.menu ul ul a.drop:hover{
+    background:#9496a4;
+}
+.menu ul ul :hover > a.drop {
+    background:#9496a4;
+}
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {
+    visibility:hidden; 
+    position:absolute; 
+    height:0; 
+    top:23px; 
+    left:0; 
+    width:150px; 
+    border-top:1px solid #7791B0;
+}
+/* another hack for IE5.5 */
+* html .menu ul ul {
+    top:23px;t\op:23px;
+}
+/* table so that it takes no part in the layout - required for IE */
+.menu table {
+    position:absolute;
+    top:0; 
+    left:0; 
+    border-collapse:collapse;
+}
+/* second level links */
+.menu ul ul a, .menu ul ul a:visited {
+    background:#FFF; 
+    color:#000; 
+    height:auto; 
+    line-height:1.25em; 
+    padding:5px; 
+    width:150px;
+}
+/* yet another hack for IE5.5 */
+* html .menu ul ul a, * html .menu ul ul a:visited {
+    width:150px;
+    w\idth:150px;
+}
+/* top level hover */
+.menu a:hover {
+    display:block; 
+    color:#000; 
+    background-position:0px -23px;
+}
+.menu :hover > a {
+    display:block; 
+    color:#000; 
+    background-position:0px -23px;
+}
+.menu ul ul a:hover {background:#9496a4;}
+.menu ul ul :hover > a {background:#9496a4;}
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul,
+.menu ul a:hover ul{visibility:visible; }
+/* End Menu writeup */
+
+#main-container {
+	width:100%;
+	height:364px;
+	background-image: url(../img/mainbg.gif);
+	background-repeat: repeat-x;
+	margin: 0;
+}
+#body-container {
+	width:770px;
+	margin:auto;
+}
+
+#header {
+	width:770px;
+	height:364px;
+	margin:auto;
+	position:relative;
+	background-image: url(../img/header.gif);
+	background-repeat: no-repeat;
+}
+
+#top-nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+	padding-right: 10px;
+}
+#top-nav a {
+	color: #000000;
+}
+
+
+#promo {
+	width:770px;
+	height:244px;
+	margin:auto;
+	position:relative;
+	background-image: url(../img/mtruck2.gif);
+	background-repeat: no-repeat;
+	top: 75px;
+}
+
+#bot-content {
+	background-image: url(../img/foobg.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	margin: 0px;
+
+}
+
+#botnav {
+	font-size:.8em;
+	color:#666;
+	width:770px;
+	clear:both;
+	border-top:1px solid #789;
+	border-bottom:1px solid #789;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #7791B0;
+	background-image: url(../img/botnav.gif);
+	background-repeat: repeat-x;
+	height: 31px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#bot-display {
+	background-image: url(../img/bdis.gif);
+	height: 100px;
+	width: 770px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+}
+#bot-left {
+	height: 100px;
+	width: 256px;
+	float: left;
+}
+#bot-mid {
+	height: 100px;
+	width: 256px;
+	float: left;
+}
+#bot-right {
+	height: 100px;
+	width: 256px;
+	float: right;
+}
+#nav-image {
+	padding-right: 63px;
+	padding-left: 63px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#copyright {
+	height: 30px;
+	width: 770px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 30px;
+	color: #003399;
+	text-decoration: none;
+	text-align: right;
+}
+#copyright a {
+}
+#copyright a:hover {
+	color: #ffffff;
+
+}

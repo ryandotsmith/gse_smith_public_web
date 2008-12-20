@@ -1,0 +1,52 @@
+8
+
+dir
+1
+svn://10.0.1.18/var/repository/gsenterprises.com/nbproject
+svn://10.0.1.18/var/repository/gsenterprises.com
+
+
+
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4ef5a647-9531-4c42-b197-8cd35185680c
+
+project.properties
+file
+
+
+
+
+2008-07-12T13:50:44.000000Z
+742b2eaf0198b32ce2d30303449b947e
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+
+project.xml
+file
+
+
+
+
+2008-07-12T13:50:44.000000Z
+b4cf52d57e3c5642ff610238a0b1e464
+2008-05-15T16:30:11.950231Z
+1
+rsmith
+

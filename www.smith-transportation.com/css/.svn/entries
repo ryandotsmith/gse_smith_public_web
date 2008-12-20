@@ -1,0 +1,67 @@
+8
+
+dir
+1
+svn://10.0.1.18/var/repository/smith-transportation.com/css
+svn://10.0.1.18/var/repository/smith-transportation.com
+
+
+
+2008-05-16T09:31:36.384221Z
+1
+rsmith
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3006e3b3-40dd-428e-bc8d-8416cccb83e5
+
+gb.css
+file
+
+
+
+
+2008-05-16T14:00:12.000000Z
+2be3ed81d7d4a73cbf6477fcefa33cf8
+2008-05-16T09:31:36.384221Z
+1
+rsmith
+
+_notes
+dir
+
+main.css
+file
+6
+
+
+
+2008-09-21T17:43:01.000000Z
+821fa1e997c7db63dc287e02aaed3e3d
+2008-09-21T13:13:14.746554Z
+6
+rsmith
+
+main2.css
+file
+
+
+
+
+2008-05-16T14:00:12.000000Z
+5b93b46fc4399f770ea8ad7ea5ee8597
+2008-05-16T09:31:36.384221Z
+1
+rsmith
+
